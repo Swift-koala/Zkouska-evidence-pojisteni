@@ -1,0 +1,126 @@
+body {
+    font-family: open sans;
+}
+
+
+.no-bullet-points {
+    list-style-type: none;
+    margin: 10px 0 20px 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    background-color: #0B1146;
+    color: #FFFFFF;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.app-name {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.links {
+   font-size: 20px;
+   padding-top: 20px;
+   margin-right: 10px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+button {
+    margin: 10px 0 0 10px;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0B1146;
+   color: #FFFFFF;
+   text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+form input, form label {
+  margin: 10px;
+  width: 100%;
+  min-width: 150px;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+form legend {
+    display: none;
+}
+
+h2 {
+    margin: 10px 10px 15px 10px;
+}
+
+table {
+    margin: 10px 0 10px 10px;
+}
+
+td {
+    padding-right: 20px;
+}
+
+.prijmeni {
+    padding-left: 20px;
+}
+
+.vek {
+    padding-left: 20px;
+}
+
+.telefon {
+    padding-left: 16px;
+}
+
+.nav-wrapper {
+    width: 100%;
+    background-color: #0B1146;
+    height: 20px;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+th {
+    padding-top: 10px;
+}
+
+.pojistenci {
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.form-item-phone {
+    min-width: 250px;
+}
